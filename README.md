@@ -19,13 +19,13 @@ Go to project folder.
 
 Run "composer install" and "npm install" in CLI.
 
-Set up .env file with the of db, username and password, after that run: "php artisan migrate".
+Set up .env file with the name of db, username and password, after that run: "php artisan migrate".
 
 Run "php artisan tinker", after that execute "\App\Models\News::factory(100)->create()" to fill your db with news, then type "exit", hit Enter.
 
-Also be aware that only admin can create/update/delete news. To create admin record go to registration page and register, after that change column "is_admin" to 1 in db for corresponding user.
-
 Start project by running "php artisan serve" and copy path, then run "npm run dev".
+
+Also be aware that only admin can create/update/delete news. To create admin record go to registration page and register, after that change column "is_admin" to 1 in db for corresponding user.
 
 Go to your browser and enter copied path.
 
