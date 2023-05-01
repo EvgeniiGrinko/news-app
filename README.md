@@ -25,7 +25,7 @@ Run "php artisan tinker", after that execute "\App\Models\News::factory(100)->cr
 
 Start project by running "php artisan serve" and copy path, then run "npm run dev".
 
-Also be aware that only admin can create/update/delete news. To create admin record go to registration page and register, after that change column "is_admin" to 1 in db for corresponding user.
+Also, be aware that only admin can create/update/delete news. To create admin record go to registration page and register, after that change column "is_admin" to 1 in db for corresponding user, then logout and login with this credentials.
 
 Go to your browser and enter copied path.
 
